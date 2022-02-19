@@ -1,0 +1,10 @@
+name: PlayerProfileAPI
+main: de.kyleonaut.playerprofile.PlayerProfilePlugin
+version: 1.0.0
+commands:
+  playerprofile:
+    permission: playerprofileapi.command
+
+permissions:
+  playerprofileapi.command:
+    default: op
